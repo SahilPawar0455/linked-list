@@ -15,5 +15,7 @@ public class LinkedListMain {
         linkedList1.showLinkedList();
         linkedList1.insertElementAtPosition(2,5);
         linkedList1.showLinkedList();
+        linkedList1.firstElementDelete();
+        linkedList1.showLinkedList();
     }
 }
