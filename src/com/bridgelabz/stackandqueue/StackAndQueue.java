@@ -10,5 +10,7 @@ public class StackAndQueue {
         stack.addElement(30);
         stack.addElement(56);
         stack.showLinkedList();
+        stack.firstElementDelete();
+        stack.showLinkedList();
     }
 }
