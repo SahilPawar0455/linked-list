@@ -9,5 +9,6 @@ public class Queue {
         queue.appending(30);
         queue.appending(70);
         queue.showLinkedList();
+        queue.firstElementDelete();
     }
 }
