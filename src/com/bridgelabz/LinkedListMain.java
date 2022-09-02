@@ -15,18 +15,18 @@ public class LinkedListMain {
         linkedList1.appending(75);
         linkedList1.appending(80);
         linkedList1.showLinkedList();
-        linkedList1.insertElementAtPosition(2,5);
+        linkedList1.insertElementAtPosition(2, 5);
         linkedList1.showLinkedList();
         linkedList1.firstElementDelete();
         linkedList1.showLinkedList();
         linkedList1.lastElementDelete();
         linkedList1.showLinkedList();
-        if ( linkedList1.search(51) == null){
+        if (linkedList1.search(51) == null) {
             System.out.println("Element Absent in Linked list");
-        }else {
+        } else {
             System.out.println("Element Present in Linked list");
         }
-        linkedList1.insertElementAfterAnyKey(56,89);
+        linkedList1.insertElementAfterAnyKey(56, 89);
         linkedList1.showLinkedList();
         linkedList1.searchElementThenDelete(89);
         linkedList1.showLinkedList();
