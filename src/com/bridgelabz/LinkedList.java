@@ -77,4 +77,19 @@ public class LinkedList<E> {
         }
         return null;
     }
+    public void insertElementAfterAnyKey(E key, E insertElement) {
+        Node node = new Node<>(insertElement);
+        Node currentNode = search(key);
+        boolean condition = false;
+        if (currentNode != null){
+            node.next = currentNode.next;
+            currentNode.next = node;
+            condition = true;
+        }
+        if (condition==true){
+            System.out.println("Successfully added the element");
+        }else {
+            System.out.println("Element Absent in Linked list");
+        }
+    }
 }

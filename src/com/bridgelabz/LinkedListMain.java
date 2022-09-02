@@ -26,5 +26,7 @@ public class LinkedListMain {
         }else {
             System.out.println("Element Present in Linked list");
         }
+        linkedList1.insertElementAfterAnyKey(56,89);
+        linkedList1.showLinkedList();
     }
 }
